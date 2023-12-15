@@ -3,7 +3,6 @@ package brc20
 import (
 	"bytes"
 	"encoding/hex"
-
 	"github.com/btcsuite/btcd/btcec/v2/schnorr"
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/btcutil/psbt"

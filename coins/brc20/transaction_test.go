@@ -1,9 +1,8 @@
 package brc20
 
 import (
-	"testing"
-
 	"github.com/btcsuite/btcd/chaincfg"
+	"testing"
 )
 
 func TestTransfer(t *testing.T) {

@@ -2,10 +2,9 @@ package brc20
 
 import (
 	"encoding/json"
+	"github.com/btcsuite/btcd/chaincfg"
 	"log"
 	"testing"
-
-	"github.com/btcsuite/btcd/chaincfg"
 )
 
 func TestInscribe(t *testing.T) {

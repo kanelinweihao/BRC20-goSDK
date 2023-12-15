@@ -1,4 +1,4 @@
-module wallet-coin-sdk
+module github.com/kanelinweihao/BRC20-goSDK
 
 go 1.17
 
@@ -16,6 +16,7 @@ require (
 	github.com/decred/dcrd/crypto/blake256 v1.0.0 // indirect
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.0.1 // indirect
 	github.com/kkdai/bstream v0.0.0-20161212061736-f391b8402d23 // indirect
-	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9 // indirect
-	golang.org/x/sys v0.0.0-20200814200057-3d37ad5750ed // indirect
+	github.com/stretchr/testify v1.8.4 // indirect
+	golang.org/x/crypto v0.16.0 // indirect
+	golang.org/x/sys v0.15.0 // indirect
 )
